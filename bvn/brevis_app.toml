@@ -1,0 +1,5 @@
+[[multiapp]]
+appvkhash = "0x1b470b6ad5c48bb243275fd2d0ebd9f52af5e981fee2e47355516be8be7ba948"
+# plugindownloadurl = ""
+redownload = false
+localpath = "/home/ubuntu/go/bin/mockplugin.so"
