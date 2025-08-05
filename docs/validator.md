@@ -113,7 +113,7 @@ We run on Ubuntu Linux amd64 with Amazon EC2 as an example. Feel free to experim
 6. Add a Cosmos SDK / Tendermint validator account:
 
     ```sh
-    bvnd keys add <node-name>
+    bvnd keys add <node-name> --keyring-backend file --keyring-dir $HOME/.bvnd
     ```
 
     Input a passphrase for the keyring. Backup the passphrase along with the displayed mnemonic phrase securely. Make sure they are **never** committed to any repo.
@@ -121,7 +121,7 @@ We run on Ubuntu Linux amd64 with Amazon EC2 as an example. Feel free to experim
     To view the account created, run:
 
     ```sh
-    bvnd keys list
+    bvnd keys list --keyring-backend file --keyring-dir $HOME/.bvnd
     ```
 
     Make a note of the **bvn-prefixed account address**.
