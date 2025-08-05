@@ -16,7 +16,7 @@ staking = "0x8a4B4C2aCAdeAa7206Df96F00052e41d74a015CE"
 staking_reward = "0xb01fd7Bc0B3c433e313bf92daC09FF3942212b42"
 govern = "0xea129aE043C4cB73DcB241AAA074F9E667641BA0"
 viewer = "0x5803457E3074E727FA7F9aED60454bf2F127853b"
-bvn = ""
+bvn = "0x2952a3C896C81234CB5Fc9017621Ed7b2a692dC5"
 
 [log]
 color = false
@@ -33,7 +33,7 @@ transactors = []
 validator_account = ""
 # validator_report_endpoint = ""
 check_syncer_power = true
-query_info_data_host = ""
+query_info_data_host = "appsdkv3.brevis.network:443"
 host_in_ssl = true
 
 [bvnd.check_interval]

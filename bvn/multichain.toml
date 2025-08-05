@@ -1,2 +1,12 @@
 # multichain configs
-
+[[multichain]]
+chainID = 1
+name = "Ethereum mainnet"
+# Private gateway endpoint recommended
+gateway = "https://eth.llamarpc.com"
+blkinterval = 12
+blkdelay = 4
+forwardblkdelay = 5
+maxblkdelta = 5000
+sigsverifier = "0x061691567026bf6384Ca1Ab2402346E9bD1d0765"
+addgasestimateratio = 0.4

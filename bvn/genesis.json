@@ -31,7 +31,7 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "",
+          "address": "bvn1p4mrw2z6d60edyjwg8d6fvmvajfa3drwwktfql",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -45,7 +45,7 @@
       },
       "balances": [
         {
-          "address": "",
+          "address": "bvn1p4mrw2z6d60edyjwg8d6fvmvajfa3drwwktfql",
           "coins": [
             {
               "denom": "CELR/stake",
@@ -71,13 +71,7 @@
         "sigs_verifiers": [
           {
             "chain_id": 1,
-            "address": ""
-          }
-        ],
-        "brevis_requests":[
-          {
-            "chain_id":1,
-            "address":""
+            "address": "0x061691567026bf6384Ca1Ab2402346E9bD1d0765"
           }
         ]
       }
@@ -142,7 +136,7 @@
         "min_signed_per_window": "0.10000000000000000",
         "bvn_contract": {
           "chain_id": 1,
-          "address": ""
+          "address": "0x2952a3C896C81234CB5Fc9017621Ed7b2a692dC5"
         }
       }
     },
@@ -163,12 +157,12 @@
       "syncer": null,
       "validators": [
         {
-          "eth_address": "",
-          "eth_signer": "",
-          "bvn_address": "",
+          "eth_address": "0x0023d2bf86c22BA127c578d4d59773766fC60258",
+          "eth_signer": "0x98e9d288743839e96a8005a6b51c770bbf7788c0",
+          "bvn_address": "bvn1p4mrw2z6d60edyjwg8d6fvmvajfa3drwwktfql",
           "consensus_pubkey": {
             "@type": "/cosmos.crypto.ed25519.PubKey",
-            "key": "OB3Bp19mKvyLTcgaqxD26ZbdFyrLZej3pnOOO9xWGXk="
+            "key": "Nefzflim1vPxtUEyBZaoTOlsDihAzH+tKVqXSg3whlc="
           },
           "status": "BOND_STATUS_BONDED",
           "tokens": "1000000000000",
