@@ -129,7 +129,11 @@ We run on Ubuntu Linux amd64 with Amazon EC2 as an example. Feel free to experim
 7. Prepare an Ethereum gateway URL. You can use services like [Infura](https://infura.io/),
 [Alchemy](https://alchemyapi.io/) or run your own node.
 
-8. Prepare validator Ethereum address, which is the same address with the bonded SGN validator.
+8. Prepare validator Ethereum address, which is the same address with the bonded SGN validator. Copy the validator keystore json file from SGN to BVN 
+    ```sh
+      mkdir $HOME/.bvnd/eth-ks
+      cp <path-to-keystore-json> $HOME/.bvnd/eth-ks/val.json
+    ```
 
 9. Prepare an Ethereum key as the **signer key**, which will be used for signing cross-chain transactions and needs to stay online. You can either reuse the signer key from your SGN validator, or create a new key by following the same instructions in the [SGN validator manual](https://github.com/celer-network/sgn-v2-networks/blob/main/docs/validator.md#setup-binary-config-and-accounts).
 
@@ -221,7 +225,7 @@ receiving the snapshot with `up-to-date-node-ip`s taken from the `seeds` field i
 
     You can tell the node is synced when a new block shows up about every 5 seconds.
 
-6. (Currently unsupported) If you choose not to setup state sync, the node will perform a traditional "fast sync" instead.
+6. If you choose not to setup state sync, the node will perform a traditional "fast sync" instead.
 In this mode it replays and verifies all historical transactions starting from genesis.
 
 ## Register and bond validator
